@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>井字过三关——注册</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+	/* style for user image (overwrite .o) */
+	
+	</style>
+	<!-- put any js-code into this file -->
+
+	<script src="js/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+
+
+
+</section>
+<section class="container-game">
+	<article class="title-row">
+		<article class="title">
+        	<h1>井字过三关</h1>
+        </article>
+        <article class="status">
+        	<figure class="circle user-photo" style="background:url(imgs/default.png)"></figure>
+            <a class="right">退出</a>
+        </article>
+	</article>
+	<article class="row initial-page">
+		<article class="col">
+			<article class="subtitle-row">
+				<h2>游戏规则</h2>
+			</article>
+			<article class="container-row">
+				<ul>
+                	<li>先注册并登录游戏</li>
+					<li>与机器人轮流在印有九格方盘上下 “X” 或 “O”</li>
+					<li>谁先把三个同一记号排成横线、直线、斜线， 即是胜者</li>
+				</ul>
+			</article>
+			<article class="subtitle-row">
+				<h2>高分榜</h2>
+			</article>
+			<article class="container-row high">
+                <article class="score">
+                    <h4 class="pos" style="background:url(imgs/default.png) no-repeat">1</h4><h4 class="name-high">Hanna <span class="moves"><span>5</span>-<span>4</span></span></h4>
+                    <p><span class="date-high">13/05/2015</span><span class="time-high">10 秒</span></p>
+                </article>	
+                <article class="score">
+                    <h4 class="pos" style="background:url(imgs/default.png) no-repeat">2</h4><h4 class="name-high">Hanna <span class="moves"><span>5</span>-<span>4</span></span></h4>
+                    <p><span class="date-high">13/05/2015</span><span class="time-high">10 秒</span></p>
+                </article>
+                <article class="score">
+                    <h4 class="pos" style="background:url(imgs/default.png) no-repeat">3</h4><h4 class="name-high">Hanna <span class="moves"><span>5</span>-<span>4</span></span></h4>
+                    <p><span class="date-high">13/05/2015</span><span class="time-high">10 秒</span></p>
+                </article>
+                <article class="score">
+                    <h4 class="pos" style="background:url(imgs/default.png) no-repeat">4</h4><h4 class="name-high">Hanna <span class="moves"><span>5</span>-<span>4</span></span></h4>
+                    <p><span class="date-high">13/05/2015</span><span class="time-high">10 秒</span></p>
+                </article>
+                <article class="score">
+                    <h4 class="pos" style="background:url(imgs/default.png) no-repeat">5</h4><h4 class="name-high">Hanna <span class="moves"><span>5</span>-<span>4</span></span></h4>
+                    <p><span class="date-high">13/05/2015</span><span class="time-high">10 秒</span></p>
+                </article>			
+			</article>
+		</article>
+     <!--注册界面-->
+      <article class="col border-line col-game-spacing">
+        <article class="subtitle-row">
+          <h2>玩家注册</h2>
+        </article>
+        <article class="container-row form">
+          <form class="form-content">
+          	<label for="">输入用户名 <span class="optional right"> 3~15位字符 </span></label>
+            <input id="username" type="text" name="username">
+            
+            <label for="">输入密码 <span class="optional right"> 6~10位字符 </span></label>
+            <input id="password" type="text" name="password">
+            
+            <label for="">再次输入密码 <span class="optional right"> 两次密码要一致 </></label>
+            <input id="repassword" type="text" name="repassword">
+            
+            <label for="">输入电子邮箱 <span class="optional right"> 可选 </span></label>
+            <input id="email" type="text" name="email">
+            
+            <label for="photo">上传玩家头像<span class="optional right"> jpg|png </span></label>
+            <input id="photo" type="file" name="photo" accept=".jpg,.png">
+            
+            <label for="">输入验证码 <span class="optional right"><a href="">换一张</a></span></label>
+            <div style="height:60px">
+            	<input id="validcode" type="text" name="validcode" style="width:100px;display:inline-block">
+                <img src="" style="width:80px;height:34px;display:inline-block;float:right"/>
+            </div>
+            
+            <input type="button" value="注 册">
+          </form>
+          <article class="alert-spacing-error">
+            <article class="alert">
+                <span class="underline">用户名:</span> 长度不符合3~15位!<br>
+                <span class="underline">密码:</span> 两次输入的密码不相符!<br>
+                <span class="underline">验证码:</span> 验证码不正确!<br>
+            </article>
+          </article>
+        </article>
+      </article>
+    <!--注册界面-->
+
+</section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
